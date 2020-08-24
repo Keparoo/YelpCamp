@@ -20,6 +20,7 @@ indexRoutes = require("./routes/index");
 mongoose.connect('mongodb+srv://Kep:JxfUPs4h4CAyHU6i@yelpcamp.dw74n.mongodb.net/<dbname>?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
+  //useCreateIndex: true
 })
 .then(() => console.log('Connected to DB!'))
 .catch(error => console.log(error.message));
