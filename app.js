@@ -18,7 +18,6 @@ indexRoutes = require("./routes/index");
 
 let url = process.env.DATABASEURL || "mongodb://localhost:27017/yelp_camp_final"
 mongoose.connect(url, {
-// mongoose.connect('mongodb+srv://Kep:JxfUPs4h4CAyHU6i@yelpcamp.dw74n.mongodb.net/<dbname>?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
   //useCreateIndex: true
